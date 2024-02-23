@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="./form.css">
+    <link rel="stylesheet" href="./bootstrap-icons-1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+    <fieldset class="textfield">
+        <legend id="leg">Registration Form</legend>
+
+        <form id="obj">
+
+            <div>
+                <label for="name">Name:</label> <br>
+                <input type="text" id="name">
+            </div><br>
+
+            <div>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email">
+            </div> <br>
+
+            <div >
+                <label for="password">Password</label><br>
+
+                <div style="display: flex; align-items:center">
+                    <input type="password" id="password">
+                    <i id="eyeclose" class="bi bi-eye-fill" style="margin-left: -1.4rem;"></i>
+
+                    <i id="eyeopen" class="bi bi-eye-slash" style="margin-left: -1.4rem; display: none;"></i>
+                </div>
+            </div> <br>
+
+            <div>
+                <label for="phone">Phone</label><br>
+                <input type="phone" id="phone">
+            </div><br>
+
+            <button type="button" id="btn">Submit</button>
+        </form>
+    </fieldset>
+
+
+    <script src="form.js"></script>
+
+</body>
+
+</html>

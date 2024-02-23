@@ -1,0 +1,34 @@
+fieldset {
+    background-color: #f5eec2;
+    color: #416a59;
+    font-weight: bolder;
+    width: 40vw;
+    height: 100%;
+    margin: auto;
+}
+
+#leg {
+    color: black !important;
+    font-size: larger;
+    font-weight: bolder;
+    text-transform: capitalize;
+    text-shadow: 1px 2px 2px white;
+}
+
+input {
+    color: whitesmoke;
+    background-color: black;
+    border-radius: 1rem ;
+    border-color: white;
+    height: 25px;
+}
+
+#password {
+    display: block;
+    
+}
+
+/* form {
+    background-color: white !important;
+    color: black !important;
+} */
